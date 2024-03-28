@@ -40,7 +40,7 @@ public class BaseClass {
 		ExtentReportTest.attachReporter(htmlReporter);
 
 		if (driver == null) {
-			FileReader fr = new FileReader("F:\\QA\\Selenium Project\\MavenAutomationProject\\src\\test\\resources\\Configfile\\config.properties");
+			FileReader fr = new FileReader("F:\\QA\\Maven\\Maven-Project-Automation\\MavenAutomationProject\\src\\test\\resources\\Configfile\\config.properties");
 			pr.load(fr);
 		}
 
@@ -48,21 +48,21 @@ public class BaseClass {
 			// WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver","F:\\QA\\Chromedriver Path\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
-			driver.get(pr.getProperty("testurl2"));
+			driver.get(pr.getProperty("testurl1"));
 			log.info("SetUp Successful");
 		}
 
 		else if (pr.getProperty("browser").equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-			driver.get(pr.getProperty("testurl2"));
+			driver.get(pr.getProperty("testurl1"));
 			log.info("SetUp Successful");
 		}
 
 		else if (pr.getProperty("browser").equalsIgnoreCase("msedge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
-			driver.get(pr.getProperty("testurl2"));
+			driver.get(pr.getProperty("testurl1"));
 			log.info("SetUp Successful");
 		}
 

@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-23T20:23:52 IST" name="Suite" finished-at="2024-03-23T20:24:14 IST" duration-ms="21919">
+  <suite started-at="2024-03-28T20:16:25 IST" name="Default suite" finished-at="2024-03-28T20:16:53 IST" duration-ms="28326">
     <groups>
     </groups>
-    <test started-at="2024-03-23T20:23:52 IST" name="Test" finished-at="2024-03-23T20:24:14 IST" duration-ms="21919">
-      <class name="TestCase.LaunchTestGoogle">
-        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestCase.LaunchTestGoogle@13c9d689]" started-at="2024-03-23T20:23:52 IST" name="setup" finished-at="2024-03-23T20:24:02 IST" duration-ms="10143" status="PASS">
+    <test started-at="2024-03-28T20:16:25 IST" name="Default test" finished-at="2024-03-28T20:16:53 IST" duration-ms="28326">
+      <class name="TestCase.LaunchTestYoutube">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:TestCase.LaunchTestYoutube@3cd3e762]" started-at="2024-03-28T20:16:25 IST" name="setup" finished-at="2024-03-28T20:16:42 IST" duration-ms="16706" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@9d3c67]]>
+                <![CDATA[org.testng.TestRunner@7a2e0858]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Launchgoogle()[pri:0, instance:TestCase.LaunchTestGoogle@13c9d689]" started-at="2024-03-23T20:24:02 IST" name="Launchgoogle" finished-at="2024-03-23T20:24:12 IST" duration-ms="10126" status="PASS">
+        <test-method signature="Browserlaunch()[pri:0, instance:TestCase.LaunchTestYoutube@3cd3e762]" started-at="2024-03-28T20:16:42 IST" name="Browserlaunch" finished-at="2024-03-28T20:16:53 IST" duration-ms="10710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launchgoogle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LaunchTestGoogle@13c9d689]" started-at="2024-03-23T20:24:12 IST" name="teardown" finished-at="2024-03-23T20:24:14 IST" duration-ms="1607" status="PASS">
+        </test-method> <!-- Browserlaunch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.LaunchTestYoutube@3cd3e762]" started-at="2024-03-28T20:16:53 IST" name="teardown" finished-at="2024-03-28T20:16:53 IST" duration-ms="871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestCase.LaunchTestGoogle -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestCase.LaunchTestYoutube -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
